@@ -10,6 +10,15 @@ module.exports = {
       },
       name: {
         type: Sequelize.STRING
+      },
+      deadline: {
+        type: Sequelize.DATE
+      },
+      content: {
+        type: Sequelize.STRING
+      },
+      status:{
+        type: Sequelize.INTEGER
       }
     });
   },
